@@ -529,8 +529,8 @@ def git_update(repo, is_no_errors=False, is_current_dir=False, git_owner=""):
   print("[git] update: " + repo)
   owner = git_owner if git_owner else "ONLYOFFICE"
 
-  unlimited_organization = "btactic-oo"
-  unlimited_tag_suffix = "-btactic"
+  unlimited_organization = "mu-hanz"
+  unlimited_tag_suffix = "-mu-hanz"
   unlimited_modified_repos = ["server", "web-apps"]
   if (repo in unlimited_modified_repos):
     owner = unlimited_organization
